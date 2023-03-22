@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="icon" href="icone.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Soma/DOM</title>
+</head>
+<body>
+   <main>
+    <h1>Soma +</h1>
+    <div class="botoes">
+    <input class="numero" type="number" name="valor1" id="valor1"> +
+    <input class="numero" type="number" name="valor2" id="valor2">
+    <input class="igual" type="button" value="=" onclick="somar()">
+    </div>
+    <div id="resp">Resposta</div>
+</main>
+    <script>
+        function somar(){
+        var v1 = window.document.getElementById('valor1');
+        var v2 = window.document.querySelector('input#valor2');
+        var resp = window.document.querySelector('div#resp');
+
+        var n1 = Number(v1.value);
+        var n2 = Number(v2.value);
+        var resultado = n1 + n2;
+        resp.innerHTML = ` A soma entre ${n1} e ${n2} é igual a ${resultado}`
+        //${placeholder}
+    }
+    </script>
+
+<footer> Site desenvolvido por Rafael Freitas &#169 2023
+</footer>
+
+</body>
+</html>

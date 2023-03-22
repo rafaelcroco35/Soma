@@ -1,0 +1,56 @@
+body{
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: 30% ;
+    overflow:hidden;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://images4.alphacoders.com/125/125086.jpg);
+    text-transform: uppercase;
+}
+
+main{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: #cae9d1;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 60%;
+    background-color: rgba(0, 0, 0, 0.568);
+    padding: 2% 2% 2% 2%;
+}
+input{
+   background-color: #cae9d1;
+   color: #3b3765;
+   font-size: 120%;
+   text-align: center;
+}
+.botoes{
+    display: flex;
+    flex-direction: column;
+}
+.igual{
+    margin-left: 40%;
+    margin-right:40% ;
+}
+
+.numero{
+   margin-bottom: 2%;
+}
+#resp{ 
+    margin-top: 7%;
+    margin-bottom:  7%;
+}
+footer{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color: #fdf8f1;
+    margin-top: 585px;
+    padding: 15px 0 10px 0;
+    font-size: 70%;
+    background-color:rgba(0, 0, 0, 0.568);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
